@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "Neucha";
+    src: url("./fonts/Neucha-Regular.ttf");
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("./fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+body {
+    height: 100%;
+    margin: 0;
+}
+.header {
+    
+    margin: 0;
+    background-color: #f5f4f0;
+}
+
+.header::before {
+    content: "";
+    background-image: url("./images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.1;
+}
+
+h1 {
+    font-style: Neucha;
+    color: #FE8A02;
+    font-size: 72px;
+    font-family: Neucha;
+    font-weight: 400;
+    line-height: 86.40px;
+    word-wrap: break-word;
+    margin: 0;
+    padding: 100px 137px 636.88px 165px;
+}
+.colorBlack {
+    color: #2A2626;
+}
+
+img {
+    max-height: 525px;
+    top: 55px;
+    left: 461px;
+    position: absolute;
+}
+
+.flex-content {
+    display: flex;
+    position: absolute;
+    top: 543px;
+    right: 165px;
+    left: 165px;
+    bottom: 189px;
+}
+.flex-content div {
+    width: 540px;
+    height: 186px;
+    color: #2A2626;
+    font-size: 16px;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: 25.60px;
+    word-wrap: break-word; 
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.button {
+    width: 148px; 
+    height: 49px;  
+    border: 0; 
+    background: #FE8A02; 
+    justify-content: center; 
+    position: absolute;
+    top: 765px;
+    bottom: 100px;
+    right: 557px;
+    left: 735px;
+    padding: 12px 24px;
+} 
+.textButton {
+    color: white;
+    font-size: 16px;
+    font-family: Open Sans;
+    font-weight: 700;
+    line-height: 25.60px;
+}
